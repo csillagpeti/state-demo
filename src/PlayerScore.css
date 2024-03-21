@@ -1,0 +1,16 @@
+.playerScore {
+  margin: 20px;
+}
+
+.playerScore .score {
+  margin-right: 10px; 
+}
+
+.score{
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+.winner{
+  margin-left: 20px;
+}
