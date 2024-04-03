@@ -5,8 +5,10 @@ import "./App.css";
 // import EmojiClicker from "./EmojiClicker";
 // import ScoreKeeper from "./ScoreKeeper";
 // import UserNameForm from "./UserNameForm";
-import SignupForm from "./SignupForm";
-
+// import SignupForm from "./SignupForm";
+// import BetterSignupForm from "./BetterSignupForm";
+// import ShoppingListForm from "./ShoppingListForm";
+import ShoppingList from "./ShoppingList";
 function App() {
   return (
     <>
@@ -16,8 +18,10 @@ function App() {
       <ScoreKeeper_duo />
       <EmojiClicker />
       <ScoreKeeper numPlayers={10} target={3} />
-      <UserNameForm /> */}
+      <UserNameForm />
       <SignupForm />
+      <BetterSignupForm /> */}
+      <ShoppingList />
     </>
   );
 }
